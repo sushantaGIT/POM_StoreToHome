@@ -1,0 +1,8 @@
+com\store\qa\base\TestBase.class
+com\store\qa\util\WebEventListener.class
+com\store\qa\pages\AddressPage.class
+com\store\qa\pages\MyAccountPage.class
+com\store\qa\pages\CommonElementPage.class
+com\store\qa\ExtentReportListener\ExtentReporterNG.class
+com\store\qa\pages\LoginPage.class
+com\store\qa\util\TestUtil.class

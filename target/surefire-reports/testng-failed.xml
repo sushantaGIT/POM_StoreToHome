@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.store.qa.tests.MyAccountPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="goToMyAddresses"/>
+          <include name="setUp"/>
+          <include name="goToOrderHistory"/>
+        </methods>
+      </class> <!-- com.store.qa.tests.MyAccountPageTest -->
+      <class name="com.store.qa.tests.LoginPageTest">
+        <methods>
+          <include name="logoImageTest"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.store.qa.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

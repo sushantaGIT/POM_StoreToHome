@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Store-To-Home Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.store.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Store-To-Home Application Test Cases(failed)">
+    <classes>
+      <class name="com.store.qa.tests.AddressTest">
+        <methods>
+          <include name="addNewAddress" invocation-numbers="0 1 2"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.store.qa.tests.AddressTest -->
+      <class name="com.store.qa.tests.MyAccountPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.store.qa.tests.MyAccountPageTest -->
+    </classes>
+  </test> <!-- Store-To-Home Application Test Cases(failed) -->
+</suite> <!-- Failed suite [Store-To-Home Application Test Automation Test Suite] -->
